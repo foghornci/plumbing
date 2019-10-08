@@ -1,0 +1,22 @@
+approve:
+- repos:
+  - foghornci
+  implicit_self_approve: false
+  review_acts_as_approve: true
+plugins:
+  foghornci:
+  - size
+  - blunderbuss
+  - trigger
+  - assign
+  - approve
+  - lgtm
+  - cat
+  - dog
+  - heart
+  - pony
+  - shrug
+  - welcome
+  - wip
+  - help
+  - hold
